@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0;
+    position: relative;
+}
+.slider{
+width: 100%;
+display: none;
+}
+.slider img{
+    width: 100%;
+}
+
+
+
+/*------------------
+ next button css 
+--------------------*/
+
+.next, .prev{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #433333;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+
+    border-radius: 5px;
+}
+.next{
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+}
+.prev{
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%); 
+}
